@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devocional-Univali</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="reuniao.css">
+    <link rel="shortcut icon" href="images/UMAD.png" type="image/x-icon">
+</head>
+<body>
+    <header class="header">
+        <img src="images/UMAD.png" alt="">
+        <ul style="display: flex; gap: 10px;margin-right: 20px;">
+          <li style="list-style: none;"><a href="painel.php" style="text-decoration: none; color: #fa8eb7;">Painel</a></li>
+          <li style="list-style: none;"><a href="sair.php"  style="text-decoration: none; color: #fa8eb7;">Sair</a></li>
+        </ul>       
+    </header><br><br><br><br>
+    <section class="corpo-section ">
+        <div>
+            <h4>Devocional - Diário</h4>
+        </div>
+        <div id="dom" class="tabcontent">
+            <h3>Domingo - Devocional</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quibusdam quis numquam tempore quasi inventore. Necessitatibus quaerat ducimus ipsam nesciunt in quia iusto saepe neque, eum itaque, tenetur ea eos.</p>
+          </div>
+          
+          <div id="seg" class="tabcontent">
+            <h3>Segunda - Devocional</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quibusdam quis numquam tempore quasi inventore. Necessitatibus quaerat ducimus ipsam nesciunt in quia iusto saepe neque, eum itaque, tenetur ea eos.</p> 
+          </div>
+          
+          <div id="ter" class="tabcontent">
+            <h3>Terça - Devocional</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quibusdam quis numquam tempore quasi inventore. Necessitatibus quaerat ducimus ipsam nesciunt in quia iusto saepe neque, eum itaque, tenetur ea eos.</p>
+          </div>
+
+          <div id="quart" class="tabcontent">
+            <h3>Quarta - Devocional</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quibusdam quis numquam tempore quasi inventore. Necessitatibus quaerat ducimus ipsam nesciunt in quia iusto saepe neque, eum itaque, tenetur ea eos.</p>
+          </div>
+
+          <div id="quint" class="tabcontent">
+            <h3>Quinta - Devocional</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quibusdam quis numquam tempore quasi inventore. Necessitatibus quaerat ducimus ipsam nesciunt in quia iusto saepe neque, eum itaque, tenetur ea eos.</p>
+          </div>
+          
+          <div id="sex" class="tabcontent">
+            <h3>Sexta - Devocional</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quibusdam quis numquam tempore quasi inventore. Necessitatibus quaerat ducimus ipsam nesciunt in quia iusto saepe neque, eum itaque, tenetur ea eos.</p>
+          </div>
+
+          <div id="sab" class="tabcontent">
+            <h3>Sábado - Devocional</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi quibusdam quis numquam tempore quasi inventore. Necessitatibus quaerat ducimus ipsam nesciunt in quia iusto saepe neque, eum itaque, tenetur ea eos.</p>
+          </div>
+        <h3 class="h3">Deixe seu comentario para juntos entedermos </h3>
+
+        <div class="day-dias">
+            <div class="day tablinks" onclick="openCity(event, 'dom')" id="defaultOpen">Dom</div>
+            <div class="day tablinks" onclick="openCity(event, 'seg')">Seg</div>
+            <div class="day tablinks" onclick="openCity(event, 'ter')">Ter</div>
+            <div class="day tablinks" onclick="openCity(event, 'quart')">Quar</div>
+            <div class="day tablinks" onclick="openCity(event, 'quint')">Quin</div>
+            <div class="day tablinks" onclick="openCity(event, 'sex')">Sex</div>
+            <div class="day tablinks" onclick="openCity(event, 'sab')">Sab</div>
+        </div>
+          
+          <script>
+          function openCity(evt, cityName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+              tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+              tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(cityName).style.display = "block";
+            evt.currentTarget.className += " active";
+          }
+          
+          // Get the element with id="defaultOpen" and click on it
+          document.getElementById("defaultOpen").click();
+          </script>
+    </section>
+
+    <section class="content-corpo">
+        <section class="corpo-section-2">
+            <h3>Usúarios Online <i class='bx bx-message-rounded-dots'></i></h3>
+            <div class="online">
+                <div class="user">Ester Batista </div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista </div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista </div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                
+            </div>
+        </section>
+        <section class="corpo-section-3">
+            <h4>Sala de Bate-papo</h4>
+            <section class="corpo-section-4">
+              <div class="users">
+                <img src="images/UMAD.png" alt="" >
+                <div class="users-user">
+                  <p>Ester Batista</p>
+                  <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui dolores fugit aut dolor quibusdam. Amet iusto fugiat suscipit dolorem, odio earum autem quasi ratione architecto maiores, in atque dolor eius.</h5>
+                  <input type="button" value="Exclir">
+                </div>
+              </div>
+              <div class="users">
+                <img src="images/UMAD.png" alt="" >
+                <div class="users-user">
+                  <p>Ester Batista</p>
+                  <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui dolores fugit aut dolor quibusdam. Amet iusto fugiat suscipit dolorem, odio earum autem quasi ratione architecto maiores, in atque dolor eius.</h5>
+                  <input type="button" value="Exclir">
+                </div>
+              </div>
+              <div class="users">
+                <img src="images/UMAD.png" alt="" >
+                <div class="users-user">
+                  <p>Ester Batista</p>
+                  <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui dolores fugit aut dolor quibusdam. Amet iusto fugiat suscipit dolorem, odio earum autem quasi ratione architecto maiores, in atque dolor eius.</h5>
+                  <input type="button" value="Exclir">
+                </div>
+              </div>
+              <div class="users">
+                <img src="images/UMAD.png" alt="" >
+                <div class="users-user">
+                  <p>Ester Batista</p>
+                  <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui dolores fugit aut dolor quibusdam. Amet iusto fugiat suscipit dolorem, odio earum autem quasi ratione architecto maiores, in atque dolor eius.</h5>
+                  <input type="button" value="Exclir">
+                </div>
+              </div>
+              <div class="users">
+                <img src="images/UMAD.png" alt="" >
+                <div class="users-user">
+                  <p>Ester Batista</p>
+                  <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui dolores fugit aut dolor quibusdam. Amet iusto fugiat suscipit dolorem, odio earum autem quasi ratione architecto maiores, in atque dolor eius.</h5>
+                  <input type="button" value="Exclir">
+                </div>
+              </div>
+              <div class="users">
+                <img src="images/UMAD.png" alt="" >
+                <div class="users-user">
+                  <p>Ester Batista</p>
+                  <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui dolores fugit aut dolor quibusdam. Amet iusto fugiat suscipit dolorem, odio earum autem quasi ratione architecto maiores, in atque dolor eius.</h5>
+                  <input type="button" value="Exclir">
+                </div>
+              </div>
+              <div class="users">
+                <img src="images/UMAD.png" alt="" >
+                <div class="users-user">
+                  <p>Ester Batista</p>
+                  <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui dolores fugit aut dolor quibusdam. Amet iusto fugiat suscipit dolorem, odio earum autem quasi ratione architecto maiores, in atque dolor eius.</h5>
+                  <input type="button" value="Exclir">
+                </div>
+              </div>
+            </section>
+            <div class="intup-comentario">
+              <br>
+              <form action="">
+                <textarea name="" id="text" cols="200"></textarea>
+                <br>
+                <div>
+                  <input type="submit" value="Enviar">
+                </div>
+                <br>
+              </form>
+            </div> 
+        </section>
+    </section>
+    <style>
+      .modal {
+        display: none;
+        position: fixed; 
+        z-index: 1; 
+        padding-top: 100px; 
+        left: 0;
+        top: 0;
+        width: 100%; 
+        height: 100%; 
+        overflow: auto;
+        background-color:#f7c0d54d;
+        
+      }
+      .modal-content {
+        background-color: #fefefe;
+        margin: auto;
+        padding: 20px;
+        border: 1px solid #fa8eb7;
+        width: 80%;
+        border-radius: 10px;
+        height: 400px;
+      }
+      
+      
+      .close {
+        color: #aaaaaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: #000;
+        text-decoration: none;
+        cursor: pointer;
+      }
+      .corpo-section-2{    
+    width: 15%;
+    background-color: #ffffff;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .corpo-section-2 h3{
+    padding: 10px;
+    text-align: center;
+    background-color: #fa8eb7;
+    color: #ffffff;
+    border-bottom: 1px solid #000;
+
+  }
+ 
+.on{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin-left: 20px;
+    height: 330px;
+    width: 90%; 
+    overflow-x: auto;
+    margin-top:5px;
+}
+.online .user{
+    border-bottom: 1px solid #000;
+    width: 70%;
+    padding: 5px;
+    font-weight: bold;
+    color: #fa8eb7;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+      </style>
+      <div>
+        <button id="myBtn"><i class='bx bx-message-rounded-dots'></i></button>
+      </div>
+       
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <section class="corpo-section-22">
+            <h3>Usúarios na Sala <i class='bx bx-message-rounded-dots'></i></h3>
+            <div class="online on">
+                <div class="user">Ester Batista </div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista </div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                <div class="user">Ester Batista</div>
+                
+            </div>
+        </section>
+        </div>
+      
+      </div>
+      
+      <script>
+      // Get the modal
+      var modal = document.getElementById("myModal");
+      
+      // Get the button that opens the modal
+      var btn = document.getElementById("myBtn");
+      
+      // Get the <span> element that closes the modal
+      var span = document.getElementsByClassName("close")[0];
+      
+      // When the user clicks the button, open the modal 
+      btn.onclick = function() {
+        modal.style.display = "block";
+      }
+      
+      // When the user clicks on <span> (x), close the modal
+      span.onclick = function() {
+        modal.style.display = "none";
+      }
+      
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+      </script>
+      <br><br>
+   <footer
+   style="
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     background-color: #ffffff;
+     padding: 10px;
+     text-align: center;
+     margin-bottom: 0;
+     border-top:1px solid #baf5fc;
+   "
+ >
+   <div>
+     <img src="images/UMAD.png" style="height: 40px; border-radius: 20px" />
+     <div>
+       <div style="border-bottom: 2px solid #fa8eb7">
+         <p style="color: #fa8eb7; font-size:12px">Grupo de Jovens UMADI - UNIVALI</p>
+       </div>
+       <div style="padding: 10px; color: var(--dark)">
+         <a
+           href="#"
+           ><i class="bx bxl-whatsapp" style="color: #fa8eb7;"></i
+         ></a>
+         <a
+           href="https://www.instagram.com/umadiunivali?igsh=dWpqMHY5MDVpYmho"
+           target="_blank"
+           ><i class="bx bxl-instagram" style="color: #fa8eb7;"></i
+         ></a>
+       </div>
+       <div
+         style="
+           background-color: #fa8eb7;
+           padding: 10px 40px;
+           border-radius: 40px;
+         "
+       >
+         <p style="color: #ffffff">
+           Enderço Rua Pedro José João, 226 - Ressacada AD-UNIVALI 
+         </p>
+       </div>
+     </div>
+   </div>
+ </footer>
+</body>
+</html>

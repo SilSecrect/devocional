@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shadows+Into+Light&family=Spicy+Rice&display=swap');
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    
+    
+}
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+ }
+ 
+ ::-webkit-scrollbar {
+     width: 2px;
+ }
+ 
+ ::-webkit-scrollbar-track {
+     background: #0f0f0f00;
+ }
+   
+ ::-webkit-scrollbar-thumb {
+     -webkit-border-radius: 3px;
+     border-radius: 3px;
+     background: linear-gradient(180deg, #fa8eb7, #ffffff);
+ }
+ 
+ ::-webkit-scrollbar-thumb:hover {
+     -webkit-border-radius: 3px;
+     border-radius: 3px;
+     background: linear-gradient(0deg, #fa8eb7, #fa8eb7);
+ }
+body{
+    background: #fcdeea;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    border-bottom: 1px solid #ffc8dd ;
+    align-items: center;
+    box-shadow: 15px 2px 5px  #ffc8dd;
+    background-color: #ffffff;
+    position: fixed;
+    width: 100%;
+
+}
+.header img{
+    height: 60px;
+    border-radius: 50px;
+    margin-left: 40px;
+   
+}
+.header .bx-menu{
+    margin-right: 40px;
+    font-size: 30px;
+    color:  #fa8eb7;
+}
+.corpo-section{
+    margin: auto;
+    width: 80%;
+    background-color: #ffffff;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.corpo-section h4{
+    text-align: center;
+    padding: 10px;
+    color: #fa8eb7;
+}
+.corpo-section p{
+    text-align: center;
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+.corpo-section h3{
+    text-align: center;
+    padding: 10px;
+    
+}
+.day-dias{
+    display: flex;
+    justify-content: center;
+    background-color: #fa8eb7;
+    gap: 10px;
+    padding: 5px;
+}
+.day{
+    text-transform: uppercase;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    color: #fa8eb7;
+    border-radius: 5px;
+    border: 1px solid #bcf3f5;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+}
+  /* #dom {background-color:rgb(242, 250, 167);}
+  #seg {background-color:rgb(192, 248, 192);}
+  #ter {background-color:rgb(210, 210, 247);}
+  #quart {background-color:rgb(245, 222, 180);}
+  #quint {background-color:rgb(252, 192, 244);}
+  #sex {background-color:rgb(252, 233, 199);}
+  #sab {background-color:rgb(192, 250, 247);} */
+  
+  /* Començando a estilizar por partes */
+  @media screen and (max-width:840px){
+    .corpo-section{
+        width: 90%;
+        background-color: #ffffff;
+        height: 100%;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    .day-dias{
+        display: flex;
+        justify-content: center;
+        background-color: #fa8eb7;
+        gap: 6px;
+        padding: 5px;
+    }
+    .day{
+        text-transform: uppercase;
+        background-color: #ffffff;
+        padding: 5px 10px;
+        font-size: 15px;
+        color: #fa8eb7;
+        border-radius: 5px;
+        border: 1px solid #bcf3f5;
+    }
+  }
+  @media screen and (max-width:480px){
+    .corpo-section{
+        width: 98%;      
+    }
+    .day{ 
+        font-size: 10px;
+    }
+    .h3{
+        font-size: 15px;
+    }
+  }
+
+  /* continuação da paginas*/
+  .content-corpo{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+  }
+  .corpo-section-2{    
+    width: 15%;
+    background-color: #ffffff;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+  }
+  .corpo-section-2 h3{
+    padding: 10px;
+    text-align: center;
+    background-color: #fa8eb7;
+    color: #ffffff;
+    border-bottom: 1px solid #000;
+
+  }
+ 
+.online{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    margin-left: 20px;
+    height: 200px;
+    width: 90%; 
+    overflow-x: auto;
+    margin-top:5px;
+}
+.online .user{
+    border-bottom: 1px solid #000;
+    width: 70%;
+    padding: 5px;
+    font-weight: bold;
+    color: #fa8eb7;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+}
+.corpo-section-3{ 
+    width: 50%;
+    background-color: #ffffff;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.corpo-section-3 h4{
+    color: #ffffff;
+    background-color: #fa8eb7; 
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+ .intup-comentario{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+} 
+
+.intup-comentario #text{
+    width: 50%;
+    height: 70px;
+    outline: none;
+    border: 1px solid #fa8eb7;
+    
+}
+.intup-comentario input[type='submit']{
+    padding: 5px 10px;
+    border: 2px solid #bcf3f5;
+    background-color: #ffffff;
+    color: #fa8eb7;
+    font-family: "Roboto", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    border-radius: 5px;
+} 
+.corpo-section-4{ 
+    width: 50%;
+    background-color: #ffffff;
+    height: 570px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin: auto;
+    overflow-x: auto;
+}
+.corpo-section-4 .users{
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    
+}
+.corpo-section-4 img{
+    height: 50px;
+    border-radius: 10px;
+}
+.corpo-section-4 .users-user p{
+    padding: 3px;
+    border-bottom: 1px solid #000;
+    font-weight: bold;
+    color: #fa8eb7;
+}
+.corpo-section-4 .users-user h5{
+    padding: 5px;
+}
+.corpo-section-4 .users-user input[type='button']{
+    padding: 3px 10px;
+    background-color: #fa8eb7;
+    border: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    border-radius: 3px;
+    font-size: 10px;
+}
+#myBtn{
+    display: none;
+}
+/* Segunda parte de estilizar*/
+@media screen and (max-width:900px) {
+    #myBtn{
+        position: fixed;
+        bottom: 20px;
+        right: 50px;
+        background: none;
+        border: none;
+        font-size: 30px;
+        color: #35bfce;
+        display: block;
+      }
+    .corpo-section-2{
+        display: none;
+    }
+    .corpo-section-3{ 
+        width: 80%;
+        background-color: #ffffff;
+        height: 100%;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    .corpo-section-4{
+        width: 80%;
+    }
+    .intup-comentario #text{
+        width: 80%;      
+    }
+}
+@media screen and (max-width:490px) {
+    .corpo-section-3{ 
+        width: 99%;
+        background-color: #ffffff;
+        height: 100%;
+        border-radius: 10px;
+        margin-top: 30px;
+    }
+    .corpo-section-4{
+        width: 95%;
+    }
+    .intup-comentario #text{
+        width: 90%;      
+    }
+}
+
